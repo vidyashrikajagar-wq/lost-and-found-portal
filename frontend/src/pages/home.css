@@ -1,0 +1,175 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#f5f7fb;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:70px 8%;
+background:linear-gradient(135deg,#2563eb,#1d4ed8);
+color:white;
+flex-wrap:wrap;
+}
+
+.left{
+flex:1;
+min-width:320px;
+}
+
+.badge{
+background:white;
+color:#2563eb;
+padding:8px 18px;
+border-radius:25px;
+font-weight:bold;
+display:inline-block;
+margin-bottom:25px;
+}
+
+.left h1{
+font-size:55px;
+line-height:1.2;
+margin-bottom:15px;
+}
+
+.left span{
+color:#facc15;
+}
+
+.left p{
+font-size:24px;
+margin-bottom:20px;
+letter-spacing:2px;
+}
+
+.line{
+width:120px;
+height:5px;
+background:#facc15;
+border-radius:10px;
+margin:25px 0;
+}
+
+.left h3{
+font-weight:400;
+font-size:22px;
+}
+
+.right{
+flex:1;
+display:flex;
+justify-content:center;
+margin-top:20px;
+}
+
+.right img{
+width:520px;
+max-width:100%;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
+
+/* FEATURE CARDS */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+padding:70px 8%;
+}
+
+.card{
+background:white;
+padding:35px;
+text-align:center;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.icon{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.card h2{
+color:#2563eb;
+margin-bottom:15px;
+}
+
+.card p{
+color:#666;
+}
+
+/* QUOTE */
+
+.quote{
+background:#2563eb;
+color:white;
+margin:30px 8%;
+padding:50px;
+border-radius:20px;
+text-align:center;
+}
+
+.quote h2{
+font-size:30px;
+font-weight:500;
+}
+
+/* FOOTER */
+
+footer{
+margin-top:60px;
+background:#0f172a;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+footer p{
+margin-top:10px;
+color:#cbd5e1;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.left h1{
+font-size:38px;
+}
+
+.left h3{
+font-size:18px;
+}
+
+.right img{
+width:100%;
+margin-top:30px;
+}
+
+.quote h2{
+font-size:22px;
+}
+
+}

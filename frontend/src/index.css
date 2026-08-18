@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  padding: 18px 60px;
+}
+
+.navbar h2 {
+  color: #00e5ff;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #00e5ff;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #ddd;
+  width: 70%;
+  margin: auto;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+button {
+  padding: 15px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.lost {
+  background: crimson;
+  color: white;
+}
+
+.found {
+  background: seagreen;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 80px;
+}
+
+.card {
+  background: white;
+  color: black;
+  width: 280px;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255,255,255,0.08);
+}
