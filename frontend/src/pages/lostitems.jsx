@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./LostItems.css";
+import "./lostitems.css";
 
 function LostItems() {
   const [formData, setFormData] = useState({

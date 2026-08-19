@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./FoundItems.css";
+import "./founditems.css";
 
 function FoundItems() {
 
