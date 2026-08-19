@@ -4,12 +4,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 import Home from "./pages/home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
-import LostItems from "./pages/LostItems";
-import FoundItems from "./pages/FoundItems";
-import AdminDashboard from "./pages/AdminDashboard";
+import Login from "./pages/login";
+import Register from "./pages/register";
+import Dashboard from "./pages/dashboard";
+import LostItems from "./pages/lostitems";
+import FoundItems from "./pages/founditems";
+import AdminDashboard from "./pages/admindashboard";
 
 function App() {
   return (
