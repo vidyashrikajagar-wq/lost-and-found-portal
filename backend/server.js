@@ -3,7 +3,7 @@ const cors = require("cors");
 require("dotenv").config();
 
 
-const db = require("../middleware/config/db.js");
+const db = require("./middleware/config/db.js");
 
 const authRoutes = require("./routes/authRoutes");
 const lostRoutes = require("./routes/lostRoutes");
