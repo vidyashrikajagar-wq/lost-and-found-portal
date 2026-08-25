@@ -1,5 +1,4 @@
-const db = require("../config/db");
-
+const db = require("../middleware/config/db.js");
 // Insert Found Item
 const createFoundItem = async (
   item_name,
