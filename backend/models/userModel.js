@@ -1,4 +1,4 @@
-const db = require("../config/db");
+const db = require("../middleware/config/db.js");
 
 const createUser = async (name, email, phone, password) => {
   const sql = `
