@@ -22,7 +22,7 @@ function LostItems() {
 
   const fetchLostItems = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/lost");
+      const response = await fetch("/api/lost");
       const data = await response.json();
       setLostItems(data);
     } catch (error) {
@@ -43,7 +43,7 @@ function LostItems() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/api/lost", {
+      const response = await fetch("/api/lost", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

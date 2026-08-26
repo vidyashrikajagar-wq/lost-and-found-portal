@@ -22,7 +22,7 @@ function FoundItems() {
 
   const fetchFoundItems = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/found");
+      const response = await fetch("/api/found");
       const data = await response.json();
       setFoundItems(data);
     } catch (error) {
@@ -42,7 +42,7 @@ function FoundItems() {
 
     try {
 
-      const response = await fetch("http://localhost:5000/api/found", {
+      const response = await fetch("/api/found", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
